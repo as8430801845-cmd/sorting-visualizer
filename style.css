@@ -1,0 +1,40 @@
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.controls {
+    margin: 20px;
+}
+
+#array {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+}
+
+.bar {
+    width: 6px;
+    margin: 1px;
+    background: cyan;
+    transition: height 0.2s ease;
+}
+
+.bar.active {
+    background: red;
+}
+
+.bar.swap {
+    background: yellow;
+}
+
+.bar.sorted {
+    background: lime;
+}
